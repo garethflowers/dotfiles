@@ -1,0 +1,10 @@
+:: languages
+apm install language-batch
+apm install language-ini
+apm install language-vb
+apm install language-sln
+
+:: features
+apm install file-icons
+apm install open-recent
+apm install project-manager
