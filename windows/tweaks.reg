@@ -1,0 +1,90 @@
+;
+; General Windows (7/8/10) Tweaks
+;
+
+;Disables First Run Wizard for Internet Explorer
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main]
+"DisableFirstRunCustomize"=dword:00000001
+
+;Disables Windows Update
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=dword:00000001
+
+;Disables System Restore
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
+"DisableSR"=dword:00000001
+
+;Sets size and retention for Event Logs to 1 MB and no retention
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Application]
+"MaxSize"=dword:00100000
+"Retention"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\Security
+"MaxSize"=dword:00100000
+"Retention"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\eventlog\System]
+"MaxSize"=dword:00100000
+"Retention"=dword:00000000
+
+;Disables the crash dump file
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
+"CrashDumpEnabled"=dword:00000000
+
+;Removes the option to store files in the recycle bin and deletes them immediately
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoRecycleFiles"=dword:00000001
+
+;Allows RDP to be used – ensure firewall is configured or turned off
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server]
+"fDenyTSConnections"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\
+RDP-Tcp]
+"UserAuthentication"=dword:00000000
+
+;Disables User Access Control (UAC)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+
+;Set Superfetch for boot files only
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory
+Management\PrefetchParameters]
+"EnableSuperfetch"=dword:00000000
+
+;Turn off Default Network Location Dialogue
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\
+NewNetworkWindowOff]
+
+; Extend Disk Time-Out Value to 200
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Disk]
+"TimeOutValue"=dword:000000c8
+
+; Image Information
+[HKEY_LOCAL_MACHINE\SOFTWARE\Image]
+"Revision"="1.0"
+"Virtual"="Yes"
+
+; Disable Sideshow
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Sideshow]
+"Disabled"=dword:00000001
+
+;Sets the screensaver default to "blank", timeout 10 mins, protected
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop]
+"SCRNSAVE.EXE"="%WINDIR%\\system32\\scrnsave.scr"
+"ScreenSaveTimeOut"="600"
+"ScreenSaverIsSecure"="1"
+
+;Sets default wallpaper to nothing
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"Wallpaper"=""
+
+;Ensures that temporary internet files are always purged
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Cache]
+"Persistent"=dword:00000000
+
+;Hide the Action Center Task Tray Icon
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideSCAHealth"=dword:00000001
+
+;Disable RSS Feeds for Internet
+[HKEY_CURRENT_USER\Software\Microsoft\Feeds]
+"SyncStatus"=dword:00000000
