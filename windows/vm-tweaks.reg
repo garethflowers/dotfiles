@@ -33,7 +33,7 @@ Windows Registry Editor Version 5.00
 
 ; Disable Last Access Timestamp
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
- "NtfsDisableLastAccessUpdate"=dword:00000001
+"NtfsDisableLastAccessUpdate"=dword:00000001
 
 ; Turn off Default Network Location Dialogue
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Network\NewNetworkWindowOff]
