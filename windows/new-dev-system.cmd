@@ -5,9 +5,11 @@
 choco feature enable -n allowGlobalConfirmation
 
 :: general apps
-choco upgrade chocolatey 7zip 7zip.commandline putty filezilla adobereader slack javaruntime
+choco upgrade chocolatey
+choco upgrade 7zip 7zip.commandline putty filezilla adobereader slack javaruntime gimp paint.net
 choco upgrade autoruns sdelete procexp procmon
 choco upgrade curl wget wput zip unzip optipng
+choco upgrade inconsolata
 
 :: dev apps
 choco upgrade postgresql-9.3 pgadmin3
