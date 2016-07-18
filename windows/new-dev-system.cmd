@@ -13,7 +13,7 @@ choco upgrade curl optipng rsync unzip wget wput zip
 choco upgrade inconsolata
 
 :: dev apps
-choco upgrade pgadmin3 postgresql-9.3
+choco upgrade pgadmin3
 choco upgrade ankhsvn git gitkraken tortoisesvn
 choco upgrade atom visualstudiocode
 choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools'"
