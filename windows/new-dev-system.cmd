@@ -17,5 +17,5 @@ choco upgrade pgadmin3
 choco upgrade ankhsvn git gitkraken tortoisesvn
 choco upgrade atom visualstudiocode
 choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools'"
-choco upgrade depends ilspy wixtoolset
+choco upgrade depends ilmerge ilspy wixtoolset
 choco upgrade dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
