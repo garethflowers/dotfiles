@@ -6,7 +6,7 @@ choco feature enable -n allowGlobalConfirmation
 choco upgrade chocolatey
 
 :: general apps
-choco upgrade 7zip 7zip.commandline adobereader gimp inkscape javaruntime jdk paint.net pencil slack vlc
+choco upgrade 7zip 7zip.commandline adobereader gimp googlechrome inkscape javaruntime jdk paint.net pencil slack vlc
 
 :: remote
 choco upgrade filezilla putty tightvnc
