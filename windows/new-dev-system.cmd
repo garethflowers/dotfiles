@@ -9,7 +9,7 @@ choco upgrade chocolatey
 choco upgrade 7zip 7zip.commandline adobereader gimp inkscape javaruntime jdk paint.net pencil slack vlc
 
 :: remote
-choco upgrade filezilla putty
+choco upgrade filezilla putty tightvnc
 
 ::utils
 choco upgrade autoruns procexp procmon sdelete grepwin
@@ -29,9 +29,11 @@ choco upgrade ankhsvn git gitkraken
 choco upgrade tortoisesvn --version 1.9.2
 
 :: dotnet development
-choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools'"
+choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools WebTools'"
 choco upgrade depends ilmerge ilspy wixtoolset
 choco upgrade dotnet4.6.1 dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
+choco upgrade netfx-4.6.1-devpack netfx-4.6-devpack netfx-4.5.2-devpack netfx-4.5.1-devpack netfx-4.0.3-devpack
+
 
 :: android development
 choco upgrade android-sdk androidstudio
