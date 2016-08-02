@@ -1,0 +1,17 @@
+{
+    "editor.insertSpaces": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+        80,
+        160
+    ],
+    "editor.tabSize": 4,
+    "files.eol": "\n",
+    "files.exclude": {
+        ".vscode": true,
+        "build": true,
+        "node_modules": true,
+        "typings": true
+    },
+    "files.trimTrailingWhitespace": true
+}
