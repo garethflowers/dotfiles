@@ -5,6 +5,7 @@
         80,
         160
     ],
+    "editor.scrollBeyondLastLine": false,
     "editor.tabSize": 4,
     "files.eol": "\n",
     "files.exclude": {
@@ -13,5 +14,6 @@
         "node_modules": true,
         "typings": true
     },
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "html.format.endWithNewline": true
 }
