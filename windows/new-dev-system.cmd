@@ -6,9 +6,15 @@ choco feature enable -n allowGlobalConfirmation
 choco upgrade chocolatey
 
 :: general apps
-choco upgrade 7zip 7zip.commandline adobereader gimp googlechrome inkscape javaruntime jdk paint.net pencil slack vlc
+choco upgrade 7zip adobereader googlechrome javaruntime jdk slack
 
-:: remote
+:: graphics/diagramming
+choco upgrade dia gimp inkscape paint.net pencil
+
+:: media
+choco upgrade vlc
+
+:: remote/networking
 choco upgrade filezilla putty tightvnc
 
 ::utils
@@ -33,7 +39,6 @@ choco upgrade visualstudio2012professional -packageParameters "/Features:'Office
 choco upgrade depends ilmerge ilspy wixtoolset
 choco upgrade dotnet4.6.1 dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
 choco upgrade netfx-4.6.1-devpack netfx-4.6-devpack netfx-4.5.2-devpack netfx-4.5.1-devpack netfx-4.0.3-devpack
-
 
 :: android development
 choco upgrade android-sdk androidstudio
