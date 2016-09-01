@@ -18,7 +18,7 @@ choco upgrade dia gimp inkscape paint.net pencil
 choco upgrade vlc
 
 :: remote/networking
-choco upgrade filezilla putty teamviewer tightvnc
+choco upgrade filezilla putty teamviewer tightvnc transmission-qt
 
 ::utils
 choco upgrade autoruns procexp procmon grepwin
