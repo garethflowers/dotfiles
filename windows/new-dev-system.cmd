@@ -6,7 +6,7 @@ choco feature enable -n allowGlobalConfirmation
 choco upgrade chocolatey
 
 :: runtimes
-choco upgrade havaruntime jdk
+choco upgrade javaruntime jdk
 
 :: general apps
 choco upgrade 7zip adobereader googlechrome slack
