@@ -5,8 +5,11 @@
 choco feature enable -n allowGlobalConfirmation
 choco upgrade chocolatey
 
+:: runtimes
+choco upgrade havaruntime jdk
+
 :: general apps
-choco upgrade 7zip adobereader googlechrome javaruntime jdk slack
+choco upgrade 7zip adobereader googlechrome slack
 
 :: graphics/diagramming
 choco upgrade dia gimp inkscape paint.net pencil
@@ -15,13 +18,13 @@ choco upgrade dia gimp inkscape paint.net pencil
 choco upgrade vlc
 
 :: remote/networking
-choco upgrade filezilla putty tightvnc
+choco upgrade filezilla putty teamviewer tightvnc
 
 ::utils
-choco upgrade autoruns procexp procmon sdelete grepwin
+choco upgrade autoruns procexp procmon grepwin
 
 :: command line tools
-choco upgrade curl optipng rsync unzip wget wput zip
+choco upgrade curl optipng rsync sdelete unzip wget wput zip
 
 :: fonts
 choco upgrade inconsolata
