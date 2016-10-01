@@ -1,5 +1,7 @@
 {
     "editor.insertSpaces": true,
+    "editor.fontFamily": "'Inconsolata', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 13,
     "editor.formatOnType": true,
     "editor.rulers": [
         80,
