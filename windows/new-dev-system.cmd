@@ -5,9 +5,6 @@
 choco feature enable -n allowGlobalConfirmation
 choco upgrade chocolatey
 
-:: runtimes
-choco upgrade javaruntime jdk
-
 :: general apps
 choco upgrade 7zip adobereader googlechrome slack
 
@@ -44,4 +41,5 @@ choco upgrade dotnet4.6.1 dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
 choco upgrade netfx-4.6.1-devpack netfx-4.6-devpack netfx-4.5.2-devpack netfx-4.5.1-devpack netfx-4.0.3-devpack
 
 :: android development
+choco upgrade javaruntime jdk
 choco upgrade android-sdk androidstudio
