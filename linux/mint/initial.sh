@@ -1,6 +1,5 @@
 #!/bin/sh
 
+apt-get install -y subversion pgadmin3
 
-apt-get install subversion
-
-apt-get install remmina remmina-plugin-rdp remmina-plugin-vnc
+apt-get install -y remmina remmina-plugin-rdp remmina-plugin-vnc
