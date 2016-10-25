@@ -1,0 +1,7 @@
+[
+    // Terminate Running Task
+    {
+        "key": "ctrl+shift+'",
+        "command": "workbench.action.tasks.terminate"
+    }
+]
