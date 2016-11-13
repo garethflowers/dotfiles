@@ -17,3 +17,4 @@ apt-get install -y remmina remmina-plugin-rdp remmina-plugin-vnc
 
 # docker
 wget -qO- https://get.docker.com/ | sh
+sudo usermod -aG docker "$USER"
