@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# general
+apt-get install dia gimp inkscape
+
+#browsing
+apt-get chromium-browser torbrowser-launcher
+
 # development
 apt-get install -y subversion pgadmin3
 
