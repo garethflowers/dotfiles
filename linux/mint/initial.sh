@@ -3,6 +3,10 @@
 # general
 sudo apt-get install -y chromium-browser dia gimp inkscape torbrowser-launcher vlc
 
+curl --output /tmp/slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-2.3.3-amd64.deb
+sudo dpkg --install /tmp/slack.deb
+rm -f /tmp/slack.deb
+
 # development
 sudo apt-get install -y subversion pgadmin3
 
