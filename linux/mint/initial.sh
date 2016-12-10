@@ -1,10 +1,7 @@
 #!/bin/sh
 
 # general
-sudo apt-get install -y dia gimp inkscape
-
-#browsing
-sudo apt-get install -y chromium-browser torbrowser-launcher
+sudo apt-get install -y chromium-browser dia gimp inkscape torbrowser-launcher vlc
 
 # development
 sudo apt-get install -y subversion pgadmin3
