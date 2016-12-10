@@ -19,6 +19,9 @@ curl --output /tmp/vscode.deb --location https://go.microsoft.com/fwlink/?LinkID
 sudo dpkg --install /tmp/vscode.deb
 rm -f /tmp/vscode.deb
 
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 # fonts
 sudo apt-get install -y fonts-droid-fallback fonts-inconsolata msttcorefonts
 
