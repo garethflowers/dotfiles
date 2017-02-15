@@ -40,7 +40,7 @@ choco upgrade ankhsvn tortoisesvn
 
 :: dotnet development
 choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools WebTools'"
-choco upgrade depends ilmerge ilspy wixtoolset
+choco upgrade depends ilmerge ilspy nuget.vs wixtoolset
 choco upgrade dotnet4.6.1 dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
 choco upgrade netfx-4.6.1-devpack netfx-4.6-devpack netfx-4.5.2-devpack netfx-4.5.1-devpack netfx-4.0.3-devpack
 
