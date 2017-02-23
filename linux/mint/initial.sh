@@ -28,6 +28,12 @@ sudo apt-get install -y fonts-droid-fallback fonts-inconsolata msttcorefonts
 # remote
 sudo apt-get install -y remmina remmina-plugin-rdp remmina-plugin-vnc
 
+# vpn
+sudo apt-get install xl2tpd network-manager-strongswan
+curl --output /tmp/strongswan.deb --location https://launchpad.net/~raharper/+archive/ubuntu/bugfixes/+build/10771765/+files/network-manager-strongswan_1.4.0_amd64.deb
+sudo dpkg --install /tmp/strongswan.deb
+rm -f /tmp/strongswan.deb
+
 # docker
 sudo wget -qO- https://get.docker.com/ | sh
 sudo usermod -aG docker "$USER"
