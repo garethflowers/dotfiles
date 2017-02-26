@@ -19,6 +19,10 @@ curl --output /tmp/vscode.deb --location https://go.microsoft.com/fwlink/?LinkID
 sudo dpkg --install /tmp/vscode.deb
 rm -f /tmp/vscode.deb
 
+curl --output /tmp/insomnia.deb --location https://builds.insomnia.rest/downloads/ubuntu/latest
+sudo dpkg --install /tmp/insomnia.deb
+rm -f /tmp/insomnia.deb
+
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
