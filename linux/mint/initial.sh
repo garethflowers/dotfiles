@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# update
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get autoremove -y
+
 # general
 sudo apt-get install -y chromium-browser dia filezilla gimp inkscape torbrowser-launcher vlc
 
