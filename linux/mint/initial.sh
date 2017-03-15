@@ -32,6 +32,9 @@ rm -f /tmp/insomnia.deb
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+# virtualbox
+sudo apt-get install -y virtualbox virtualbox-dkms virtualbox-qt virtualbox-guest-additions-iso
+
 # fonts
 sudo apt-get install -y fonts-droid-fallback fonts-inconsolata msttcorefonts
 
