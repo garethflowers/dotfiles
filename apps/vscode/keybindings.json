@@ -1,4 +1,9 @@
 [
+    // Save All
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
     // Terminate Running Task
     {
         "key": "ctrl+shift+'",
