@@ -29,6 +29,10 @@ curl --output /tmp/insomnia.deb --location https://builds.insomnia.rest/download
 sudo dpkg --install /tmp/insomnia.deb
 rm -f /tmp/insomnia.deb
 
+curl --output /tmp/gitkraken.deb --location https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo dpkg --install /tmp/gitkraken.deb
+rm -f /tmp/gitkraken.deb
+
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
