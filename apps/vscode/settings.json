@@ -1,7 +1,7 @@
 {
     "editor.insertSpaces": true,
-    "editor.fontFamily": "'Inconsolata', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "'Inconsolata', 'Noto Mono', 'Droid Sans Mono', monospace",
+    "editor.fontSize": 15,
     "editor.formatOnType": true,
     "editor.rulers": [
         80,
@@ -10,12 +10,9 @@
     "editor.scrollBeyondLastLine": false,
     "editor.tabSize": 4,
     "files.eol": "\n",
-    "files.exclude": {
-        ".vscode": true,
-        "build": true,
-        "node_modules": true,
-        "typings": true
-    },
     "files.trimTrailingWhitespace": true,
-    "html.format.endWithNewline": true
+    "html.format.endWithNewline": true,
+    "editor.minimap.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.implementationsCodeLens.enabled": true
 }
