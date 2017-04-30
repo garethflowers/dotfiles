@@ -8,5 +8,7 @@ apm install language-vb
 
 # features
 apm install file-icons
+apm install minimap
+apm install native-ui
 apm install open-recent
 apm install project-manager
