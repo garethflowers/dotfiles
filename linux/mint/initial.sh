@@ -40,7 +40,7 @@ sudo apt-get install -y nodejs
 sudo apt-get install -y virtualbox virtualbox-dkms virtualbox-qt virtualbox-guest-additions-iso
 
 # fonts
-sudo apt-get install -y fonts-droid-fallback fonts-inconsolata msttcorefonts
+sudo apt-get install -y fonts-droid-fallback fonts-inconsolata ttf-mscorefonts-installer
 
 # remote
 sudo apt-get install -y remmina remmina-plugin-rdp remmina-plugin-vnc
