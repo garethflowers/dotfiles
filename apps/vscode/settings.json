@@ -13,6 +13,7 @@
     "files.trimTrailingWhitespace": true,
     "html.format.endWithNewline": true,
     "editor.minimap.enabled": true,
+    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontLigatures": true,
     "typescript.referencesCodeLens.enabled": true,
     "typescript.implementationsCodeLens.enabled": true
