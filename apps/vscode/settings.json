@@ -1,7 +1,7 @@
 {
-    "editor.fontFamily": "'Inconsolata', 'Noto Mono', 'Droid Sans Mono', monospace",
+    "editor.fontFamily": "'Fira Code Retina', 'Inconsolata', 'Noto Mono', 'Droid Sans Mono', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 13,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.insertSpaces": true,
@@ -16,5 +16,5 @@
     "terminal.integrated.fontLigatures": true,
     "typescript.implementationsCodeLens.enabled": true,
     "typescript.referencesCodeLens.enabled": true,
-    "workbench.welcome.enabled": false,
+    "workbench.welcome.enabled": false
 }
