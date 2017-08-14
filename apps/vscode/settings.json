@@ -8,13 +8,16 @@
     "editor.minimap.enabled": true,
     "editor.scrollBeyondLastLine": false,
     "editor.tabSize": 4,
+    "extensions.ignoreRecommendations": true,
     "files.eol": "\n",
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
     "html.format.endWithNewline": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontLigatures": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "workbench.welcome.enabled": false
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.scrollback": 10000,
+    "workbench.startupEditor": "newUntitledFile"
 }
