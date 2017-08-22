@@ -16,6 +16,7 @@ rm -f /tmp/slack.deb
 # development
 sudo apt install -y git subversion
 sudo apt install -y pgadmin3
+sudo apt install -y php composer
 
 curl --output /tmp/atom.deb --location https://atom.io/download/deb
 sudo dpkg --install /tmp/atom.deb
