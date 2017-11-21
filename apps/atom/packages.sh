@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # languages
 apm install language-batch
 apm install language-ini
