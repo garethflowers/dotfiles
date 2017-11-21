@@ -6,7 +6,7 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # general
-sudo apt install -y libcurl3
+sudo apt install -y curl libcurl3 wget wput
 sudo apt install -y chromium-browser dia filezilla gimp inkscape torbrowser-launcher vlc
 
 curl --output /tmp/slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-2.3.3-amd64.deb
@@ -15,8 +15,7 @@ rm -f /tmp/slack.deb
 
 # development
 sudo apt install -y git subversion
-sudo apt install -y pgadmin3
-sudo apt install -y php composer
+sudo apt install -y composer php
 
 curl --output /tmp/atom.deb --location https://atom.io/download/deb
 sudo dpkg --install /tmp/atom.deb
