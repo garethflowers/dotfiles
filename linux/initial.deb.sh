@@ -35,7 +35,7 @@ curl --output /tmp/gitkraken.deb --location https://release.gitkraken.com/linux/
 sudo dpkg --install /tmp/gitkraken.deb
 rm -f /tmp/gitkraken.deb
 
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt install -y nodejs
 
 # virtualbox
