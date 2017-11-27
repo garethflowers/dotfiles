@@ -48,7 +48,11 @@ sudo dpkg -i /tmp/gitkraken.deb
 rm -f /tmp/gitkraken.deb
 
 # virtualbox
-sudo apt install -y virtualbox virtualbox-dkms virtualbox-qt virtualbox-guest-additions-iso
+sudo sh -c "echo 'deb http://download.virtualbox.org/virtualbox/debian artful contrib' > /etc/apt/sources.list.d/virtualbox.list"
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt update
+sudo apt install dkms virtualbox-5.2
 
 # fonts
 sudo apt install -y fonts-droid-fallback fonts-inconsolata
