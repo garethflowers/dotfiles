@@ -4,9 +4,9 @@
         "key": "ctrl+alt+s",
         "command": "workbench.action.files.saveAll"
     },
-    // Terminate Running Task
+    // View Next Terminal
     {
         "key": "ctrl+shift+'",
-        "command": "workbench.action.tasks.terminate"
+        "command": "workbench.action.terminal.next"
     }
 ]
