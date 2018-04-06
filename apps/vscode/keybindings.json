@@ -7,6 +7,6 @@
     // View Next Terminal
     {
         "key": "ctrl+shift+'",
-        "command": "workbench.action.terminal.next"
+        "command": "workbench.action.terminal.focusNext"
     }
 ]
