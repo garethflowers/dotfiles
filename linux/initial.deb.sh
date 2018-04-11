@@ -9,10 +9,6 @@ sudo apt autoremove -y
 sudo apt install -y curl libcurl3 wget wput
 sudo apt install -y chromium-browser dia filezilla gimp inkscape torbrowser-launcher vlc
 
-curl --output /tmp/slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-2.3.3-amd64.deb
-sudo dpkg -i /tmp/slack.deb
-rm -f /tmp/slack.deb
-
 # vcs
 sudo apt install -y git subversion
 
@@ -26,13 +22,18 @@ sudo apt install -y composer php
 # python
 sudo apt install -y python python-pip
 
+# slack
+curl --output /tmp/slack.deb https://downloads.slack-edge.com/linux_releases/slack-desktop-2.3.3-amd64.deb
+sudo dpkg -i /tmp/slack.deb
+rm -f /tmp/slack.deb
+
 # atom
 curl -L -o /tmp/atom.deb https://atom.io/download/deb
 sudo dpkg -i /tmp/atom.deb
 sudo apt install -fy
 rm -f /tmp/atom.deb
 
-# vscode
+# visual-studio-code
 curl -L -o /tmp/vscode.deb https://go.microsoft.com/fwlink/?LinkID=760868
 sudo dpkg -i /tmp/vscode.deb
 rm -f /tmp/vscode.deb
