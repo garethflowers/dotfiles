@@ -1,25 +1,25 @@
 [
-    // Save All
-    {
-        "key": "ctrl+alt+s",
-        "command": "workbench.action.files.saveAll"
-    },
-    // View Next Terminal
-    {
-        "key": "ctrl+'",
-        "command": "workbench.action.terminal.focusNext"
-    },
-    // Forward / Back Navigation
-    {
-        "key": "ctrl+=",
-        "command": "workbench.action.navigateForward"
-    },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward"
-    },
-    {
-        "key": "ctrl+-",
-        "command": "workbench.action.navigateBack"
-    }
+	// Save All
+	{
+		"key": "ctrl+alt+s",
+		"command": "workbench.action.files.saveAll"
+	},
+	// View Next Terminal
+	{
+		"key": "ctrl+'",
+		"command": "workbench.action.terminal.focusNext"
+	},
+	// Forward / Back Navigation
+	{
+		"key": "ctrl+=",
+		"command": "workbench.action.navigateForward"
+	},
+	{
+		"key": "ctrl+shift+-",
+		"command": "-workbench.action.navigateForward"
+	},
+	{
+		"key": "ctrl+-",
+		"command": "workbench.action.navigateBack"
+	}
 ]
