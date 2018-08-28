@@ -8,6 +8,8 @@
 	"editor.renderWhitespace": "all",
 	"editor.scrollBeyondLastLine": false,
 	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"editor.wrappingIndent": "indent",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
