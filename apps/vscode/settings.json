@@ -1,4 +1,7 @@
 {
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.fontLigatures": true,
 	"editor.formatOnPaste": true,
