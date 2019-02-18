@@ -29,5 +29,6 @@
 	"terminal.integrated.fontLigatures": true,
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	"workbench.statusBar.feedback.visible": false
 }
