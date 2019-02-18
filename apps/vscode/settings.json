@@ -3,6 +3,7 @@
     "breadcrumbs.filePath": "on",
     "breadcrumbs.symbolPath": "on",
 	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.fontFamily": "'Fira Code Retina'",	
 	"editor.fontLigatures": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
