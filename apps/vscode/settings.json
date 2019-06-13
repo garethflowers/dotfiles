@@ -27,7 +27,6 @@
 	"git.enableSmartCommit": true,
 	"html.format.endWithNewline": true,
 	"terminal.integrated.cursorStyle": "line",
-	"terminal.integrated.fontLigatures": true,
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
 	"workbench.startupEditor": "none",
