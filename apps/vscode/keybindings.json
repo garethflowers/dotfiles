@@ -4,19 +4,23 @@
 		"key": "cmd+'"
 	},
 	{
-		"command": "workbench.action.navigateBack",
-		"key": "cmd+["
-	},
-	{
 		"command": "-workbench.action.navigateBack",
 		"key": "ctrl+-"
 	},
 	{
-		"command": "workbench.action.navigateForward",
-		"key": "cmd+]"
+		"key": "cmd+[",
+		"command": "workbench.action.navigateBack"
 	},
 	{
 		"command": "-workbench.action.navigateForward",
-		"key": "ctrl+shift+-"
+		"key": "ctrl+shift+-"b
+	},
+	{
+		"key": "cmd+]",
+		"command": "workbench.action.navigateForward"
+	},
+	{
+		"key": "cmd+t",
+		"command": "workbench.action.tasks.test"
 	}
 ]
