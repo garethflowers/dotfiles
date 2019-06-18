@@ -4,3 +4,6 @@ alias gitpull='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git pul
 
 # system
 alias sysupdate='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y'
+
+# lock screen
+alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
