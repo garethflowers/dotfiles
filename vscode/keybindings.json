@@ -8,19 +8,19 @@
 		"key": "ctrl+-"
 	},
 	{
-		"key": "cmd+[",
-		"command": "workbench.action.navigateBack"
+		"command": "workbench.action.navigateBack",
+		"key": "cmd+["
 	},
 	{
 		"command": "-workbench.action.navigateForward",
-		"key": "ctrl+shift+-"b
+		"key": "ctrl+shift+-"
 	},
 	{
-		"key": "cmd+]",
-		"command": "workbench.action.navigateForward"
+		"command": "workbench.action.navigateForward",
+		"key": "cmd+]"
 	},
 	{
-		"key": "cmd+t",
-		"command": "workbench.action.tasks.test"
+		"command": "workbench.action.tasks.test",
+		"key": "cmd+t"
 	}
 ]
