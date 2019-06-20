@@ -2,6 +2,7 @@
 
 code --install-extension eamodio.gitlens
 code --install-extension editorconfig.editorconfig
+code --install-extension mikestead.dotenv
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension peterjausovec.vscode-docker
