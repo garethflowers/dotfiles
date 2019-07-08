@@ -4,7 +4,7 @@
 	"breadcrumbs.symbolPath": "on",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"diffEditor.renderIndicators": false,
-	"editor.fontFamily": "'Fira Code Retina'",
+	"editor.fontFamily": "'FiraCode-Retina', monospace",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 13,
 	"editor.formatOnPaste": true,
