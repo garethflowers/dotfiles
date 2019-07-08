@@ -1,3 +1,7 @@
+[push]
+	default = simple
+	followTags = true
+
 [user]
-	name = Gareth Flowers
 	email = garethflowers@users.noreply.github.com
+	name = Gareth Flowers
