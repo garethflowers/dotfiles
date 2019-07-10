@@ -28,7 +28,8 @@ brew cask install subler
 brew cask install visual-studio
 brew cask install visual-studio-code
 
-brew cask install font-
+# Fonts
+brew cask install font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
