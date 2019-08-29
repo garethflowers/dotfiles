@@ -2,7 +2,7 @@
 	"breadcrumbs.enabled": true,
 	"breadcrumbs.filePath": "on",
 	"breadcrumbs.symbolPath": "on",
-	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.ignoreTrimWhitespace": true,
 	"diffEditor.renderIndicators": false,
 	"editor.fontFamily": "'FiraCode-Retina', 'Fira Code Retina', monospace",
 	"editor.fontLigatures": true,
