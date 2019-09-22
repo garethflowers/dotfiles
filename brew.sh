@@ -11,6 +11,7 @@ brew install ack
 brew install git
 brew install grep
 brew install imagemagick
+brew install node
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install tree
