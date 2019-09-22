@@ -11,12 +11,15 @@ brew install ack
 brew install git
 brew install grep
 brew install imagemagick
-brew install node
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install tree
 brew install wget
 brew install woff2
+
+# Development
+brew install node
+npm install --global npm
 
 # Apps
 brew cask install brave-browser
