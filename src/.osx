@@ -13,6 +13,18 @@ sudo nvram SystemAudioVolume=%80
 defaults write com.apple.menuextra.battery ShowPercent -string "NO"
 defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
+########
+# Mouse
+
+# Secondary Click
+defaults write com.apple.AppleMultitouchMouse MouseButtonMode -string TwoButton
+
+# Smart Zoom
+defaults write com.apple.AppleMultitouchMouse MouseOneFingerDoubleTapGesture -float 1
+
+# Swipe between Pages
+defaults write "Apple Global Domain" AppleEnableMouseSwipeNavigateWithScrolls -float 1
+
 ###################
 # Transmission.app
 
