@@ -7,43 +7,75 @@ choco feature enable -n allowEmptyChecksums
 choco upgrade chocolatey
 
 :: general apps
-choco upgrade 7zip adobereader googlechrome slack
+choco upgrade googlechrome
 
 :: graphics/diagramming
-choco upgrade dia gimp inkscape paint.net
+choco upgrade dia
+choco upgrade gimp
+choco upgrade inkscape
+choco upgrade paint.net
 choco upgrade pencil -pre
 
 :: media
 choco upgrade vlc
 
 :: remote/networking
-choco upgrade filezilla putty.install teamviewer tightvnc transmission-qt
+choco upgrade filezilla
+choco upgrade putty.install
+choco upgrade teamviewer
+choco upgrade tightvnc
+choco upgrade transmission-qt
 
 ::utils
-choco upgrade autoruns procexp procmon grepwin
+choco upgrade autoruns
+choco upgrade procexp
+choco upgrade procmon
 
 :: command line tools
-choco upgrade curl optipng rsync sdelete unzip wget wput zip
+choco upgrade curl
+choco upgrade optipng
+choco upgrade rsync
+choco upgrade sdelete
+choco upgrade unzip
+choco upgrade wget
+choco upgrade wput
+choco upgrade zip
 
 :: fonts
 choco upgrade inconsolata
 
 :: dev apps
-choco upgrade pgadmin3
-choco upgrade atom visualstudiocode
+choco upgrade visualstudiocode
 choco upgrade postman
 
 :: vcs
 choco upgrade git -params '"/GitAndUnixToolsOnPath /NoAutoCrlf /NoShellIntegration /WindowsTerminal"'
-choco upgrdae github gitkraken
-choco upgrade ankhsvn tortoisesvn
+choco upgrade github
+choco upgrade gitkraken
+choco upgrade ankhsvn
+choco upgrade tortoisesvn
 
 :: dotnet development
 choco upgrade visualstudio2012professional -packageParameters "/Features:'OfficeTools WebTools'"
-choco upgrade depends ilmerge ilspy nuget.vs wixtoolset
-choco upgrade dotnet4.6.1 dotnet4.6 dotnet4.5.2 dotnet4.5.1 dotnet4.5 dotnet3.5
-choco upgrade netfx-4.6.1-devpack netfx-4.6-devpack netfx-4.5.2-devpack netfx-4.5.1-devpack netfx-4.0.3-devpack
+choco upgrade depends
+choco upgrade ilmerge
+choco upgrade ilspy
+choco upgrade nuget.vs
+choco upgrade wixtoolset
+choco upgrade dotnet4.6.1
+choco upgrade dotnet4.6
+choco upgrade dotnet4.5.2
+choco upgrade dotnet4.5.1
+choco upgrade dotnet4.5
+choco upgrade dotnet3.5
+choco upgrade netfx-4.6.1-devpack
+choco upgrade netfx-4.6-devpack
+choco upgrade netfx-4.5.2-devpack
+choco upgrade netfx-4.5.1-devpack
+choco upgrade netfx-4.0.3-devpack
 
 :: android development
-choco upgrade javaruntime jdk
-choco upgrade android-sdk androidstudio
+choco upgrade javaruntime
+choco upgrade jdk
+choco upgrade android-sdk
+choco upgrade androidstudio
