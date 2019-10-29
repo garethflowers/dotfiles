@@ -4,5 +4,5 @@ promptinit
 prompt adam1
 
 # completion
-autoload -Uz promptinit
-promptinit
+autoload -Uz compinit
+compinit
