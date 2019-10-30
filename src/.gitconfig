@@ -1,5 +1,6 @@
 [core]
 	editor = vi
+	ignorecase = false
 
 [push]
 	default = simple
