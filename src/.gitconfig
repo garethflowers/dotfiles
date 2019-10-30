@@ -1,3 +1,6 @@
+[core]
+	editor = vi
+
 [push]
 	default = simple
 	followTags = true
