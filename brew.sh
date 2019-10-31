@@ -24,12 +24,13 @@ npm install --global npm
 # Apps
 brew cask install authy
 brew cask install brave-browser
-brew cask install fork
 brew cask install dbeaver-community
+brew cask install fork
 brew cask install imageoptim
 brew cask install insomnia
-brew cask install transmission
 brew cask install subler
+brew cask install transmission
+brew cask install virtualbox
 brew cask install visual-studio
 brew cask install visual-studio-code
 
