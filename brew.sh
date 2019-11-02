@@ -23,6 +23,7 @@ npm install --global npm
 
 # Apps
 brew cask install authy
+brew cask install docker
 brew cask install brave-browser
 brew cask install dbeaver-community
 brew cask install fork
