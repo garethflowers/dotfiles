@@ -9,3 +9,8 @@ compinit
 
 # correction
 setopt correctall
+
+# aliases
+if [ -f ~/.zsh/.aliasrc ]; then
+	. ~/.zsh/.aliasrc
+fi
