@@ -2,8 +2,8 @@
 alias ll='ls --all -l'
 
 # git
-alias gitclean='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git remote prune origin; git branch --merged | grep --extended-regexp --invert-match '\''(^\*|master|dev)'\'' | xargs git branch --delete; cd -; done'
-alias gitpull='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git pull; cd -; done'
+alias gc='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git remote prune origin; git branch --merged | grep --extended-regexp --invert-match '\''(^\*|master|dev)'\'' | xargs git branch --delete; cd -; done'
+alias gp='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git pull; cd -; done'
 
 # docker
 alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}" | (read -r; printf "%s\n" "$REPLY"; sort)'
@@ -13,7 +13,7 @@ alias bt='npm run build && npm run test'
 
 # system
 if [ `uname` = "Linux" ]; then
-	alias sysupdate='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y'
+	alias sysupdate='sudo apt-get install --fix-broken --yes; sudo apt-get update --yes; sudo apt-get upgrade --yes; sudo apt-get autoremove --yes; sudo apt-get autoclean --yes; sudo snap refresh; brew update; brew upgrade; brew cleanup; npm install --global npm'
 fi
 
 # lock screen
