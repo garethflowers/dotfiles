@@ -1,5 +1,5 @@
 # general
-alias ll='ls --all -l'
+alias ll='ls -al'
 
 # git
 alias gc='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git remote prune origin; git branch --merged | grep --extended-regexp --invert-match '\''(^\*|master|dev)'\'' | xargs git branch --delete; cd -; done'
