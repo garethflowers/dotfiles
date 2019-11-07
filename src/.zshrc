@@ -8,7 +8,7 @@ autoload -Uz compinit
 compinit
 
 # correction
-setopt correctall
+unsetopt correctall
 
 # aliases
 if [ -f ~/.zsh/.aliasrc ]; then
