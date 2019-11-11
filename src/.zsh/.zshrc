@@ -11,6 +11,6 @@ compinit
 unsetopt correctall
 
 # aliases
-if [ -f ~/.zsh/.aliasrc ]; then
-	. ~/.zsh/.aliasrc
+if [ -f $ZDOTDIR/.aliasrc ]; then
+	. $ZDOTDIR/.aliasrc
 fi
