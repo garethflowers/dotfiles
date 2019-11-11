@@ -10,6 +10,11 @@ compinit
 # correction
 unsetopt correctall
 
+# history
+HISTFILE=$ZDOTDIR/.zsh_history
+HISTSIZE=2000
+SAVEHIST=1000
+
 # aliases
 if [ -f $ZDOTDIR/.aliasrc ]; then
 	. $ZDOTDIR/.aliasrc
