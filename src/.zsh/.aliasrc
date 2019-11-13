@@ -13,7 +13,7 @@ alias bt='npm run build && npm run test'
 
 # system
 if [ `uname` = "Linux" ]; then
-	alias sysupdate='sudo apt-get install --fix-broken --yes; sudo apt-get update --yes; sudo apt-get upgrade --yes; sudo apt-get autoremove --yes; sudo apt-get autoclean --yes; sudo snap refresh; brew update; brew upgrade; brew cleanup; npm install --global npm'
+	alias sysupdate='sudo dnf update; sudo dnf upgrade; flatpak update; npm install --global npm'
 else
 	alias sysupdate='softwareupdate --install -all'
 fi
