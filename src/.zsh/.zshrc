@@ -17,5 +17,12 @@ SAVEHIST=1000
 
 # aliases
 if [ -f $ZDOTDIR/.aliasrc ]; then
-	. $ZDOTDIR/.aliasrc
+	source $ZDOTDIR/.aliasrc
+fi
+
+# load additional scripts
+if [ -d $ZDOTDIR/rc.d ]; then
+	for file in $ZDOTDIR/rc.d/*.sh; do
+        	source $file
+	done
 fi
