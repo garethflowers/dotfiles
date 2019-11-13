@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-# Make sure we’re using the latest Homebrew.
+# Update everything
 brew update
-
-# Upgrade any already-installed formulae.
 brew upgrade
+brew cask upgrade
 
 # Install command line tools
 brew install ack
