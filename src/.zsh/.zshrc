@@ -23,6 +23,6 @@ fi
 # load additional scripts
 if [ -d $ZDOTDIR/rc.d ]; then
 	for file in $ZDOTDIR/rc.d/*.sh; do
-        	source $file
+		source $file
 	done
 fi
