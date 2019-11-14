@@ -2,6 +2,9 @@
 	editor = vi
 	ignorecase = false
 
+[fetch]
+	prune = true
+
 [push]
 	default = simple
 	followTags = true
