@@ -15,7 +15,7 @@ alias bt='npm run build && npm run test'
 if [ `uname` = "Linux" ]; then
 	alias sysupdate='sudo dnf update; sudo dnf upgrade; flatpak update; npm install --global npm'
 else
-	alias sysupdate='softwareupdate --install -all'
+	alias sysupdate='softwareupdate --install -all; brew update; brew upgrade; brew cask upgrade; npm install --global npm'
 fi
 
 # lock screen
