@@ -9,6 +9,9 @@
 	default = simple
 	followTags = true
 
+[rebase]
+	autosquash = true
+
 [user]
 	email = garethflowers@users.noreply.github.com
 	name = Gareth Flowers
