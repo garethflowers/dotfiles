@@ -2,8 +2,17 @@
 alias ll='ls -al'
 
 # git
-alias gc='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git remote prune origin; git branch --merged | grep --extended-regexp --invert-match '\''(^\*|master|dev)'\'' | xargs git branch --delete; cd -; done'
-alias gp='for dir in $(find . -name '\''.git'\''); do cd ${dir%/*}; git pull; cd -; done'
+alias gc='for dir in $( find . -name ".git" )
+        do cd ${dir%/*}
+        git remote prune origin
+        git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match master | xargs git branch --delete --force
+        cd -
+        done'
+alias gp='for dir in $( find . -name ".git" )
+	do cd ${dir%/*}
+	git pull
+	cd -
+	done'
 
 # docker
 alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}" | (read -r; printf "%s\n" "$REPLY"; sort)'
