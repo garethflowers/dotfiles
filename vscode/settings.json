@@ -18,6 +18,11 @@
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		"*.kjb": "xml",
+		"*.ktr": "xml",
+		"*.kdb": "xml"
+	},
 	"files.defaultLanguage": "markdown",
 	"files.eol": "\n",
 	"files.insertFinalNewline": true,
