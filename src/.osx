@@ -1,11 +1,9 @@
 # Close System Preferences
 osascript -e 'tell application "System Preferences" to quit'
 
-# Ask for the administrator password upfront
-sudo -v
 
-sudo scutil --set HostName "MathBook Pro"
-sudo scutil --set LocalHostName "MathBook-Pro"
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "https://garethflowers.dev"
+sudo scutil --set HostName "Gareth's MacBook Pro"
 
 # remove startup chime
 sudo nvram SystemAudioVolume=%80
