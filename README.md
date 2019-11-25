@@ -1,2 +1,3 @@
-# configs
-Config and Install Scripts
+# DotFiles
+
+DotFiles, Configuration and Install Scripts.
