@@ -1,19 +1,19 @@
 [
 	{
-		"command": "workbench.action.terminal.focusNext",
-		"key": "cmd+'"
+		"command": "-workbench.action.files.saveAs",
+		"key": "ctrl+shift+s",
 	},
 	{
 		"command": "-workbench.action.navigateBack",
 		"key": "ctrl+-"
 	},
 	{
-		"command": "workbench.action.navigateBack",
-		"key": "cmd+["
-	},
-	{
 		"command": "-workbench.action.navigateForward",
 		"key": "ctrl+shift+-"
+	},
+	{
+		"command": "workbench.action.navigateBack",
+		"key": "cmd+["
 	},
 	{
 		"command": "workbench.action.navigateForward",
@@ -22,5 +22,13 @@
 	{
 		"command": "workbench.action.tasks.test",
 		"key": "cmd+t"
+	},
+	{
+		"command": "workbench.action.terminal.focusNext",
+		"key": "cmd+'"
+	},
+	{
+		"command": "workbench.action.files.saveAll",
+		"key": "ctrl+shift+s"
 	}
 ]
