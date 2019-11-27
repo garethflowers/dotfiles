@@ -34,5 +34,6 @@
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
+	"typescript.preferences.importModuleSpecifier": "relative"
 	"workbench.startupEditor": "none"
 }
