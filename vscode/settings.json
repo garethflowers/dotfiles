@@ -19,9 +19,13 @@
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
 	"files.associations": {
+		".dockerignore": "ignore",
+		".env": "properties",
+		".npmrc": "properties",
+		".nycrc": "json",
+		"*.kdb": "xml",
 		"*.kjb": "xml",
-		"*.ktr": "xml",
-		"*.kdb": "xml"
+		"*.ktr": "xml"
 	},
 	"files.defaultLanguage": "markdown",
 	"files.eol": "\n",
@@ -34,6 +38,6 @@
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
-	"typescript.preferences.importModuleSpecifier": "relative"
+	"typescript.preferences.importModuleSpecifier": "relative",
 	"workbench.startupEditor": "none"
 }
