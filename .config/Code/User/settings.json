@@ -9,7 +9,7 @@
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
 	"editor.insertSpaces": true,
-	"editor.minimap.enabled": true,
+	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "all",
 	"editor.scrollBeyondLastLine": false,
 	"editor.tabSize": 4,
