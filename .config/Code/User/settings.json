@@ -1,5 +1,5 @@
 {
-	"breadcrumbs.filePath": "off",
+	"breadcrumbs.filePath": "last",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"diffEditor.renderIndicators": false,
 	"diffEditor.renderSideBySide": false,
