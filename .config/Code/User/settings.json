@@ -1,6 +1,6 @@
 {
 	"breadcrumbs.filePath": "last",
-	"diffEditor.ignoreTrimWhitespace": true,
+	"diffEditor.ignoreTrimWhitespace": false,
 	"diffEditor.renderIndicators": false,
 	"diffEditor.renderSideBySide": false,
 	"editor.fontFamily": "'FiraCode-Retina', 'Fira Code Retina', monospace",
