@@ -40,5 +40,7 @@
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
 	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"window.restoreWindows": "none",
 	"workbench.startupEditor": "none"
 }
