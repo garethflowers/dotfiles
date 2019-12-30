@@ -10,6 +10,7 @@ brew install ack
 brew install git
 brew install grep
 brew install imagemagick
+brew install mas
 brew install optipng
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
