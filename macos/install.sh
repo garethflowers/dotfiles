@@ -28,6 +28,7 @@ brew cask install docker
 brew cask install brave-browser
 brew cask install dbeaver-community
 brew cask install fork
+brew cask install handbrake
 brew cask install imageoptim
 brew cask install insomnia
 brew cask install subler
