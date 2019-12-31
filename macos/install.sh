@@ -37,6 +37,18 @@ brew cask install virtualbox
 brew cask install visual-studio
 brew cask install visual-studio-code
 
+# App Store Apps
+mas install 497799835 # Xcode
+mas install 409203825 # Numbers
+mas install 409201541 # Pages
+mas install 409183694 # Keynote
+mas install 408981434 # iMovie
+mas install 407963104 # Pixelmator
+mas install 425424353 # The Unarchiver
+mas install 485812721 # TweetDeck
+mas install 553245401 # Friendly Streaming
+mas install 1295203466 # Microsoft Remote Desktop
+
 # Fonts
 brew cask install font-fira-code
 
