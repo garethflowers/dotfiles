@@ -43,5 +43,7 @@
 	"typescript.preferences.importModuleSpecifier": "relative",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.restoreWindows": "none",
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	// extensions
+	"cSpell.language": "en-GB"
 }
