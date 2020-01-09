@@ -35,6 +35,7 @@
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
 	"html.format.endWithNewline": true,
+	"npm.fetchOnlinePackageInfo": false,
 	"task.autoDetect": "off",
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.fontSize": 13,
