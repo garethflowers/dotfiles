@@ -4,12 +4,9 @@ alias ll='ls -al'
 # git
 alias gc='for dir in $( find . -name ".git" )
 	do cd ${dir%/*}
+	echo $dir
 	git remote prune origin
 	git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match master | xargs git branch --delete --force
-	cd -
-	done'
-alias gp='for dir in $( find . -name ".git" )
-	do cd ${dir%/*}
 	git pull
 	cd -
 	done'
@@ -22,9 +19,32 @@ alias bt='npm run build && npm run test'
 
 # system
 if [ `uname` = "Linux" ]; then
-	alias sysupdate='sudo dnf update; sudo dnf upgrade; flatpak update; npm install --global npm'
+	alias sysupdate='
+		sudo dnf update
+		sudo dnf upgrade
+		flatpak update
+		brew update
+		brew upgrade
+		brew cleanup
+		npm install --global npm
+		npm update --global npm
+		sudo gem update --system
+		sudo gem update
+		sudo gem cleanup
+	'
 else
-	alias sysupdate='softwareupdate --install -all; brew update; brew upgrade; brew cask upgrade; npm install --global npm'
+	alias sysupdate='
+		sudo softwareupdate --install -all
+		brew update
+		brew upgrade
+		brew cask upgrade
+		brew cleanup
+		npm install --global npm
+		npm update --global npm
+		sudo gem update --system
+		sudo gem update
+		sudo gem cleanup
+	'
 fi
 
 # lock screen
