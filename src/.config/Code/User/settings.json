@@ -10,7 +10,7 @@
 	"editor.formatOnType": true,
 	"editor.insertSpaces": true,
 	"editor.minimap.enabled": false,
-	"editor.renderWhitespace": "all",
+	"editor.renderWhitespace": "boundary",
 	"editor.scrollBeyondLastLine": false,
 	"editor.tabSize": 4,
 	"editor.wordWrap": "on",
