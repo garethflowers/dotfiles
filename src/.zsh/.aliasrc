@@ -33,6 +33,9 @@ if [ `uname` = "Linux" ]; then
 		sudo gem cleanup
 	'
 else
+	alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+	alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
 	alias sysupdate='
 		sudo softwareupdate --install -all
 		brew update
