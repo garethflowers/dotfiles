@@ -45,5 +45,13 @@
 	"window.restoreWindows": "none",
 	"workbench.startupEditor": "none",
 	// extensions
-	"cSpell.language": "en-GB"
+	"cSpell.language": "en-GB",
+	// docker
+	"docker.containers.description": [],
+	"docker.containers.label": "ContainerName",
+	"docker.images.description": [
+		"CreatedTime",
+		"RepositoryNameAndTag"
+	],
+	"docker.images.label": "RepositoryNameAndTag"
 }
