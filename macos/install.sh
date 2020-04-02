@@ -51,7 +51,7 @@ mas install 553245401 # Friendly Streaming
 mas install 1295203466 # Microsoft Remote Desktop
 
 # Fonts
-brew cask install font-fira-code
+brew cask install homebrew/cask-fonts/font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
