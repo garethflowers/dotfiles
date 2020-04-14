@@ -11,6 +11,18 @@ sudo nvram SystemAudioVolume=%80
 defaults write com.apple.menuextra.battery ShowPercent -string "NO"
 defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
+##########
+# Firewall
+
+# enable
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+
+# allow signed apps
+sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -int 1
+
+# enable stealth mode
+sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
+
 ########
 # Mouse
 
