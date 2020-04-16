@@ -64,7 +64,7 @@ sudo rm /private/var/vm/sleepimage
 sudo touch /private/var/vm/sleepimage
 sudo chflags uchg /private/var/vm/sleepimage
 
-############################################################################### Screen
+###############################################################################
 # Screen
 
 # Require password immediately after sleep or screen saver begins
@@ -149,7 +149,7 @@ sudo defaults write /Library/Preferences/com.apple.alf allowsignedenabled -int 1
 # enable stealth mode
 sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 
-########
+###############################################################################
 # Mouse
 
 # Secondary Click
