@@ -154,16 +154,16 @@ sudo defaults write /Library/Preferences/com.apple.alf stealthenabled -int 1
 
 # Secondary Click
 defaults write com.apple.AppleMultitouchMouse MouseButtonMode -string TwoButton
-defaults write com.apple.driver.AppleBluetoothMultitouchMouse MouseButtonMode -string TwoButton
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode -string TwoButton
 # Smart Zoom
 defaults write com.apple.AppleMultitouchMouse MouseOneFingerDoubleTapGesture -int 1
-defaults write com.apple.driver.AppleBluetoothMultitouchMouse MouseOneFingerDoubleTapGesture -int 1
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseOneFingerDoubleTapGesture -int 1
 # Mission Control
 defaults write com.apple.AppleMultitouchMouse MouseTwoFingerDoubleTapGesture -int 3
-defaults write com.apple.driver.AppleBluetoothMultitouchMouse MouseTwoFingerDoubleTapGesture -int 3
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseTwoFingerDoubleTapGesture -int 3
 # Swipe between full screen apps
 defaults write com.apple.AppleMultitouchMouse MouseTwoFingerHorizSwipeGesture -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouchMouse MouseTwoFingerHorizSwipeGesture -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseTwoFingerHorizSwipeGesture -int 2
 
 # Swipe between Pages
 defaults write "Apple Global Domain" AppleEnableMouseSwipeNavigateWithScrolls -int 1
