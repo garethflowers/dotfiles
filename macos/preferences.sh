@@ -260,12 +260,14 @@ defaults write org.m0k.transmission SpeedLimitUploadLimit -float 0
 ###############################################################################
 # Kill Applications
 
-for app in "Activity Monitor" \
+for app in \
+	"Activity Monitor" \
 	"cfprefsd" \
 	"Dock" \
 	"Finder" \
 	"SystemUIServer" \
 	"Terminal" \
-	"Transmission"; do
+	"Transmission"
+do
 	killall "${app}" &> /dev/null
 done
