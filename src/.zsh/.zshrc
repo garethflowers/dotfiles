@@ -23,7 +23,9 @@ bindkey '^[[F' end-of-line
 bindkey '^[[3~' delete-char
 
 # homebrew
-eval $( /home/linuxbrew/.linuxbrew/bin/brew shellenv )
+if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
+        eval $( /home/linuxbrew/.linuxbrew/bin/brew shellenv )
+fi
 
 # aliases
 if [ -f $ZDOTDIR/.aliasrc ]; then
