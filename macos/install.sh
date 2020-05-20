@@ -25,7 +25,6 @@ brew cask install firefox-developer-edition
 brew cask install authy
 brew cask install docker
 brew cask install dbeaver-community
-brew cask install fork
 brew cask install handbrake
 brew cask install imageoptim
 brew cask install insomnia
