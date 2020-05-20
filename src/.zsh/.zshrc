@@ -11,7 +11,7 @@ compinit
 unsetopt correctall
 
 # history
-HISTFILE=$ZDOTDIR/.zsh_history
+HISTFILE=$ZDOTDIR/.history
 HISTSIZE=2000
 SAVEHIST=1000
 
