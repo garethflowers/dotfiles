@@ -4,7 +4,7 @@ module.exports = {
 		backgroundColor: 'rgb( 0, 0, 0 )',
 		cursorColor: 'rgb( 255, 255, 255 )',
 		cursorShape: 'BEAM',
-		fontFamily: '"FiraCode-Retina", "Fira Code Retina", monospace',
+		fontFamily: '"FiraCode-Retina", "Fira Code Retina", Menlo, DejaVu Sans Mono, Lucida Console, monospace',
 		fontSize: 14,
 		foregroundColor: 'rgb( 255, 0, 0 )',
 		lineHeight: 1.5,
