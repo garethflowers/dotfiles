@@ -1,7 +1,7 @@
 // https://hyper.is#cfg
 module.exports = {
 	config: {
-		backgroundColor: 'rgb( 0, 0, 0, 0.9 )',
+		backgroundColor: 'rgb( 0, 0, 0 )',
 		cursorColor: 'rgb( 255, 255, 255 )',
 		cursorShape: 'BEAM',
 		fontFamily: '"FiraCode-Retina", "Fira Code Retina", monospace',
