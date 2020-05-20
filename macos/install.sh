@@ -26,6 +26,7 @@ brew cask install authy
 brew cask install docker
 brew cask install dbeaver-community
 brew cask install handbrake
+brew cask install hyper
 brew cask install imageoptim
 brew cask install insomnia
 brew cask install subler
