@@ -1,6 +1,6 @@
 # prompt
-PROMPTNL=$'\n'
-PS1="$PROMPTNL%F{cyan}%~%f$PROMPTNL%B%F{magenta}>> %f%b"
+PS1="%F{cyan}%~%f
+%B%F{magenta}▶ %f%b"
 
 # completion
 autoload -Uz compinit
