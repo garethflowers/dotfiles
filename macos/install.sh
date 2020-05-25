@@ -20,11 +20,11 @@ brew install node
 npm install --global npm
 
 # Apps
-brew cask install brave-browser
-brew cask install firefox-developer-edition
 brew cask install authy
-brew cask install docker
+brew cask install brave-browser
 brew cask install dbeaver-community
+brew cask install docker
+brew cask install firefox-developer-edition
 brew cask install handbrake
 brew cask install hyper
 brew cask install imageoptim
@@ -32,7 +32,6 @@ brew cask install insomnia
 brew cask install subler
 brew cask install transmission
 brew cask install virtualbox
-brew cask install visual-studio
 brew cask install visual-studio-code
 
 # App Store Apps
