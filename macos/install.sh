@@ -51,3 +51,8 @@ brew cask install homebrew/cask-fonts/font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Copy configs
+rsync --archive --human-readable --no-perms --verbose ./src/ ~/
+source ~/.zshenc
+source ~/.zsh/.zshrc
