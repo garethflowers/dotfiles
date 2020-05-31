@@ -54,5 +54,5 @@ brew cleanup
 
 # Copy configs
 rsync --archive --human-readable --no-perms --verbose ./src/ ~/
-source ~/.zshenc
+source ~/.zshenv
 source ~/.zsh/.zshrc
