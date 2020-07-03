@@ -5,6 +5,7 @@ brew cask upgrade
 
 # Install command line tools
 brew install ack
+brew install curl
 brew install git
 brew install grep
 brew install imagemagick
