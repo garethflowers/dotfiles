@@ -9,6 +9,9 @@
 	default = simple
 	followTags = true
 
+[push]
+	rebase = false
+
 [rebase]
 	autosquash = true
 
