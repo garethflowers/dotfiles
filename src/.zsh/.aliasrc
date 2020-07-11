@@ -1,5 +1,6 @@
 # general
 alias ll='ls -al'
+alias sudo='sudo '
 
 # git
 alias gc='for dir in $( find . -name ".git" )
