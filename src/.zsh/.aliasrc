@@ -24,9 +24,6 @@ if [ `uname` = "Linux" ]; then
 		sudo dnf update
 		sudo dnf upgrade
 		flatpak update
-		brew update
-		brew upgrade
-		brew cleanup
 		npm install --global npm
 		npm update --global npm
 		sudo gem update --system
