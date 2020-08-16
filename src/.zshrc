@@ -1,3 +1,39 @@
+############
+# terminal #
+############
+
+# prompt
+PS1="%F{cyan}%~%f
+%B%F{magenta}▶ %f%b"
+
+# completion
+autoload -Uz compinit
+compinit
+
+# correction
+unsetopt correctall
+
+# history
+HISTFILE=$ZDOTDIR/history
+HISTSIZE=2000
+SAVEHIST=1000
+
+# keyboard
+bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' forward-word
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
+bindkey '^[[3~' delete-char
+
+# homebrew
+if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
+	eval $( /home/linuxbrew/.linuxbrew/bin/brew shellenv )
+fi
+
+###########
+# aliases #
+###########
+
 # general
 alias ll='ls -al'
 alias sudo='sudo '
