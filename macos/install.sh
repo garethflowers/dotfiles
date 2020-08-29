@@ -10,6 +10,7 @@ brew install git
 brew install grep
 brew install imagemagick
 brew install mas
+brew install nano
 brew install optipng
 brew install tree
 brew install wget
