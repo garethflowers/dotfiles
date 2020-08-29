@@ -26,6 +26,7 @@ brew cask install brave-browser
 brew cask install dbeaver-community
 brew cask install docker
 brew cask install firefox-developer-edition
+brew cask install font-fira-code
 brew cask install handbrake
 brew cask install hyper
 brew cask install imageoptim
@@ -46,9 +47,6 @@ mas install 425424353 # The Unarchiver
 mas install 1482454543 # Twitter
 mas install 553245401 # Friendly Streaming
 mas install 1295203466 # Microsoft Remote Desktop
-
-# Fonts
-brew cask install homebrew/cask-fonts/font-fira-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
