@@ -58,8 +58,8 @@ alias bt='npm run build && npm run test'
 # system
 if [ `uname` = "Linux" ]; then
 	alias sysupdate='
-		sudo dnf update
-		sudo dnf upgrade
+		sudo dnf update --assumeyes
+		sudo dnf upgrade --assumeyes
 		flatpak update
 		npm install --global npm
 		npm update --global npm
