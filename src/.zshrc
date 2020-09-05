@@ -3,7 +3,7 @@
 ############
 
 # prompt
-PS1="%F{cyan}%~%f
+PS1="%F{cyan}%n@%M %~%f
 %B%F{magenta}▶ %f%b"
 
 # completion
