@@ -35,7 +35,7 @@ fi
 ###########
 
 # general
-alias ll='ls -al'
+alias ll='ls -Al'
 alias sudo='sudo '
 
 # git
