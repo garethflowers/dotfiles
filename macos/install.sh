@@ -31,7 +31,6 @@ brew cask install dbeaver-community
 brew cask install docker
 brew cask install firefox-developer-edition
 brew cask install font-fira-code
-brew cask install handbrake
 brew cask install hyper
 brew cask install imageoptim
 brew cask install insomnia
