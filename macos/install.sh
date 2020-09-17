@@ -44,8 +44,7 @@ mas install 409183694 # Keynote
 mas install 408981434 # iMovie
 mas install 407963104 # Pixelmator
 mas install 1482454543 # Twitter
-mas install 553245401 # Friendly Streaming
-mas install 1295203466 # Microsoft Remote Desktop
+mas install 553245401 # Friendly Streaming	
 
 # Remove outdated versions from the cellar.
 brew cleanup
