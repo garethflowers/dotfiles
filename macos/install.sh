@@ -34,7 +34,6 @@ brew cask install hyper
 brew cask install imageoptim
 brew cask install insomnia
 brew cask install subler
-brew cask install virtualbox
 brew cask install visual-studio-code
 
 # App Store Apps
