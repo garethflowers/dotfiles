@@ -27,7 +27,6 @@ npm install --global npm
 # Apps
 brew cask install authy
 brew cask install brave-browser
-brew cask install dbeaver-community
 brew cask install docker
 brew cask install firefox-developer-edition
 brew cask install font-fira-code
