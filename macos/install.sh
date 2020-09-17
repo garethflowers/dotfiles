@@ -50,5 +50,5 @@ mas install 553245401 # Friendly Streaming
 brew cleanup
 
 # Copy configs
-rsync --archive --human-readable --no-perms --verbose ./src/ ~/
-source ~/.zshrc
+#rsync --archive --human-readable --no-perms --verbose ./src/ ~/
+#source ~/.zshrc
