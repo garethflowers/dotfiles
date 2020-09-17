@@ -28,7 +28,7 @@ npm install --global npm
 brew cask install authy
 brew cask install brave-browser
 brew cask install docker
-brew cask install firefox-developer-edition
+brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install font-fira-code
 brew cask install hyper
 brew cask install imageoptim
