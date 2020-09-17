@@ -25,6 +25,10 @@ bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 bindkey '^[[3~' delete-char
 
+# env
+export EDITOR=/usr/bin/nano
+export VISUAL=/usr/bin/nano
+
 # homebrew
 if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
 	eval $( /home/linuxbrew/.linuxbrew/bin/brew shellenv )
