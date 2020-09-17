@@ -1,3 +1,6 @@
+# brew
+type brew &> /dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 # Update everything
 brew update
 brew upgrade
