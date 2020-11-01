@@ -210,54 +210,6 @@ defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
 ###############################################################################
-# Transmission.app
-
-# Use `~/Downloads/Torrents` to store incomplete downloads
-defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Downloads/Torrents"
-
-# Use `~/Downloads` to store completed downloads
-defaults write org.m0k.transmission DownloadLocationConstant -bool true
-
-# Don’t prompt for confirmation before downloading
-defaults write org.m0k.transmission DownloadAsk -bool false
-defaults write org.m0k.transmission MagnetOpenAsk -bool false
-
-# Don’t prompt for confirmation before removing non-downloading active transfers
-defaults write org.m0k.transmission CheckRemoveDownloading -bool true
-
-# Trash original torrent files
-defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
-
-# Hide the donate message
-defaults write org.m0k.transmission WarningDonate -bool false
-
-# Hide the legal disclaimer
-defaults write org.m0k.transmission WarningLegal -bool false
-
-# Randomize port on launch
-defaults write org.m0k.transmission RandomPort -bool true
-
-# Ignore unencrypted peers
-defaults write org.m0k.transmission EncryptionRequire -bool true
-
-# Remove prompts for removal and quit
-defaults write org.m0k.transmission CheckQuit -bool false
-defaults write org.m0k.transmission CheckRemove -bool false
-
-# Management
-defaults write org.m0k.transmission RatioCheck -bool true
-defaults write org.m0k.transmission RatioLimit -float 0
-defaults write org.m0k.transmission IdleLimitCheck -bool true
-defaults write org.m0k.transmission IdleLimitMinutes -int 1
-defaults write org.m0k.transmission RemoveWhenFinishSeeding -bool true
-defaults write org.m0k.transmission PlayDownloadSound -bool false
-
-# Limits
-defaults write org.m0k.transmission UploadLimit -float 0
-defaults write org.m0k.transmission SpeedLimitUploadLimit -float 0
-
-###############################################################################
 # Kill Applications
 
 for app in \
@@ -266,8 +218,7 @@ for app in \
 	"Dock" \
 	"Finder" \
 	"SystemUIServer" \
-	"Terminal" \
-	"Transmission"
+	"Terminal"
 do
 	killall "${app}" &> /dev/null
 done
