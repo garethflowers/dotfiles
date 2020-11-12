@@ -49,6 +49,9 @@ mas install 553245401 # Friendly Streaming
 # Remove outdated versions from the cellar.
 brew cleanup
 
+# Download config files
+curl -fsS -o ~/.zshrc https://raw.githubusercontent.com/garethflowers/dotfiles/master/src/.zshrc
+
 # Copy configs
 #rsync --archive --human-readable --no-perms --verbose ./src/ ~/
 #source ~/.zshrc
