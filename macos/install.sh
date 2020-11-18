@@ -27,13 +27,15 @@ npm install --global npm
 brew cask install authy
 brew cask install brave-browser
 brew cask install docker
-brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install homebrew/cask-fonts/font-fira-code
 brew cask install hyper
 brew cask install imageoptim
 brew cask install insomnia-designer
-brew cask install subler
 brew cask install visual-studio-code
+
+# Optional
+# brew cask install homebrew/cask-versions/firefox-developer-edition
+# brew cask install subler
 
 # App Store Apps
 mas install 497799835 # Xcode
