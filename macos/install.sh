@@ -17,7 +17,6 @@ brew install nano
 brew install optipng
 brew install tree
 brew install wget
-brew install woff2
 brew install zsh
 
 # Development
