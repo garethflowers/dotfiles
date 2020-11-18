@@ -31,7 +31,7 @@ brew cask install homebrew/cask-versions/firefox-developer-edition
 brew cask install homebrew/cask-fonts/font-fira-code
 brew cask install hyper
 brew cask install imageoptim
-brew cask install insomnia
+brew cask install insomnia-designer
 brew cask install subler
 brew cask install visual-studio-code
 
