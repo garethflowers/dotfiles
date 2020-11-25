@@ -11,6 +11,7 @@ brew install ack
 brew install curl
 brew install git
 brew install grep
+brew install htop
 brew install imagemagick
 brew install mas
 brew install nano
