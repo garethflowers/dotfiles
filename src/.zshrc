@@ -47,7 +47,7 @@ alias gc='for dir in $( find . -name ".git" )
 	do cd ${dir%/*}
 	echo $dir
 	git remote prune origin
-	git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match master | xargs git branch --delete --force
+	git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match main | xargs git branch --delete --force
 	git pull
 	git gc --aggressive
 	cd -
