@@ -14,7 +14,7 @@ compinit
 unsetopt correctall
 
 # history
-HISTFILE=~/history
+HISTFILE=~/.history
 HISTSIZE=2000
 SAVEHIST=1000
 
