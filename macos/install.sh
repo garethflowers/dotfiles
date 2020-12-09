@@ -46,14 +46,11 @@ mas install 409183694 # Keynote
 mas install 408981434 # iMovie
 mas install 407963104 # Pixelmator
 mas install 1482454543 # Twitter
-mas install 553245401 # Friendly Streaming	
+mas install 553245401 # Friendly Streaming
 
 # Remove outdated versions from the cellar.
 brew cleanup
 
-# Download config files
-curl -fsS -o ~/.zshrc https://raw.githubusercontent.com/garethflowers/dotfiles/master/src/.zshrc
-
 # Copy configs
-#rsync --archive --human-readable --no-perms --verbose ./src/ ~/
-#source ~/.zshrc
+rsync --archive --human-readable --no-perms --verbose ./src/ ~/
+source ~/.zshrc

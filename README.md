@@ -5,5 +5,7 @@ DotFiles, Configuration and Install Scripts.
 ## Install
 
 ```sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/garethflowers/dotfiles/master/macos/install.sh)"
+curl -Lo ~/.dotfiles.zip https://github.com/garethflowers/dotfiles/archive/main.zip
+unzip ~/.dotfiles.zip ~
+source ~/dotfiles-main/macos/install.sh
 ```
