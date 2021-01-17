@@ -55,38 +55,21 @@ alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}" 
 alias bt='npm run build && npm run test'
 
 # system
-if [ `uname` = "Linux" ]; then
-	alias sysupdate='
-		sudo dnf update --assumeyes
-		sudo dnf upgrade --assumeyes
-		flatpak update
-		npm install --global npm
-		npm update --global npm
-		sudo gem update --system
-		sudo gem update
-		sudo gem cleanup
-	'
-else
-	alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-	alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias showhidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hidehidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-	alias sysupdate='
-		sudo softwareupdate --install -all
-		brew update
-		brew upgrade
-		brew cask upgrade
-		brew cleanup
-		npm install --global npm
-		npm update --global npm
-		sudo gem update --system
-		sudo gem update
-		sudo gem cleanup
-	'
-fi
+alias sysupdate='
+	sudo softwareupdate --install -all
+	brew update
+	brew upgrade
+	brew cask upgrade
+	brew cleanup
+	npm install --global npm
+	npm update --global npm
+	sudo gem update --system
+	sudo gem update
+	sudo gem cleanup
+'
 
 # lock screen
-if [ `uname` = "Linux" ]; then
-	alias afk='dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock'
-else
-	alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
-fi
+alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
