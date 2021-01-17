@@ -29,11 +29,6 @@ bindkey '^[[3~' delete-char
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
 
-# homebrew
-if [ -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-	eval $( /home/linuxbrew/.linuxbrew/bin/brew shellenv )
-fi
-
 ###########
 # aliases #
 ###########
