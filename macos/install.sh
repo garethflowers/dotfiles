@@ -4,7 +4,6 @@ type brew &> /dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubuserconte
 # Update everything
 brew update
 brew upgrade
-brew upgrade --cask
 
 # Install command line tools
 brew install ack
