@@ -24,7 +24,6 @@ brew install node
 npm install --global npm
 
 # Apps
-brew install authy
 brew install brave-browser
 brew install docker
 brew install homebrew/cask-fonts/font-fira-code
