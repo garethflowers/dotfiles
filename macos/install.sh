@@ -27,7 +27,6 @@ npm install --global npm
 brew install brave-browser
 brew install docker
 brew install homebrew/cask-fonts/font-fira-code
-brew install hyper
 brew install imageoptim
 brew install insomnia-designer
 brew install visual-studio-code
