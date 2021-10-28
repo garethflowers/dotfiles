@@ -28,6 +28,7 @@ export VISUAL=/usr/bin/nano
 
 alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
 alias bt='npm run build && npm run test'
+alias dig='dig +nocomments +nocmd +noquestion +nostats'
 alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}" | (read -r; printf "%s\n" "$REPLY"; sort)'
 alias gc='git pull && git remote prune origin && git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match main | xargs git branch --delete --force'
 alias git-has-changes='test -n "$( git status --porcelain )"'
