@@ -6,12 +6,11 @@
 	prune = true
 
 [pull]
-	rebase = true
+	rebase = false
 
 [push]
 	default = simple
 	followTags = true
-
 
 [rebase]
 	autosquash = true
