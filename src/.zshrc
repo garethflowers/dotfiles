@@ -3,7 +3,8 @@
 ############
 
 # prompt
-PS1="%F{cyan}%n@%M %~%f
+PS1="
+%F{cyan}%n@%M %~%f
 %B%F{magenta}▶ %f%b"
 
 # completion
@@ -36,7 +37,7 @@ alias git-push-mr='git push --set-upstream origin --push-option merge_request.cr
 alias gp='git pull'
 alias gpm='git pull origin master'
 alias ll='ls -Al'
-alias npmupd='rm -rf node_modules; rm package-lock.json; npm i; npm audit --fix; npm ddp; npm ci'
+alias npm-upd='rm -rf node_modules; rm package-lock.json; npm i; npm audit --fix; npm ddp; npm ci'
 alias ns='npm run start'
 alias sudo='sudo '
 
@@ -51,7 +52,7 @@ each() {
 	done
 }
 
-alias sysupdate='
+alias sys-upd='
 	sudo softwareupdate --install -all
 	brew update
 	brew upgrade

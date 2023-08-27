@@ -1,22 +1,18 @@
-set number
-set linebreak
-set showbreak=+++
-set textwidth=100
-set showmatch
-set visualbell
- 
+set autoindent
+set backspace=indent,eol,start
 set hlsearch
-set smartcase
 set ignorecase
 set incsearch
- 
-set autoindent
+set linebreak
+set number
+set ruler
 set shiftwidth=4
+set showbreak=+++
+set showmatch
+set smartcase
 set smartindent
 set softtabstop=4
-
-set ruler
-
+set textwidth=100
 set undolevels=1000
-set backspace=indent,eol,start
+set visualbell
 syntax enable

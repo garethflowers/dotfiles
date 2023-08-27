@@ -1,10 +1,36 @@
 {
+	"[dockercompose]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
 	"breadcrumbs.filePath": "last",
+	"cSpell.language": "en-GB",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"diffEditor.renderIndicators": false,
 	"diffEditor.renderSideBySide": false,
+	"docker.containers.description": [],
+	"docker.containers.label": "ContainerName",
+	"docker.images.description": [
+		"CreatedTime",
+		"RepositoryNameAndTag"
+	],
+	"docker.images.label": "RepositoryNameAndTag",
 	"editor.detectIndentation": false,
-	"editor.fontFamily": "'FiraCode-Retina', 'Fira Code Retina', monospace",
+	"editor.fontFamily": "Hack, monospace",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 13,
 	"editor.formatOnPaste": true,
@@ -14,19 +40,20 @@
 	"editor.renderWhitespace": "boundary",
 	"editor.scrollBeyondLastLine": false,
 	"editor.tabSize": 4,
+	"editor.unicodeHighlight.nonBasicASCII": false,
 	"editor.wordWrap": "on",
 	"editor.wrappingIndent": "indent",
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"extensions.ignoreRecommendations": true,
 	"files.associations": {
+		"*.kdb": "xml",
+		"*.kjb": "xml",
+		"*.ktr": "xml",
 		".dockerignore": "ignore",
 		".env": "properties",
 		".npmrc": "properties",
-		".nycrc": "json",
-		"*.kdb": "xml",
-		"*.kjb": "xml",
-		"*.ktr": "xml"
+		".nycrc": "json"
 	},
 	"files.defaultLanguage": "markdown",
 	"files.eol": "\n",
@@ -35,12 +62,18 @@
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
-	"html.format.endWithNewline": true,
+	"git.postCommitCommand": "sync",
 	"javascript.referencesCodeLens.enabled": true,
 	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"json.maxItemsComputed": 10000,
+	"markdown.editor.drop.enabled": false,
 	"npm.fetchOnlinePackageInfo": false,
+	"prettier.proseWrap": "always",
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
 	"task.autoDetect": "off",
 	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
 	"typescript.implementationsCodeLens.enabled": true,
@@ -50,14 +83,5 @@
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.restoreWindows": "none",
 	"workbench.startupEditor": "none",
-	// extensions
-	"cSpell.language": "en-GB",
-	// docker
-	"docker.containers.description": [],
-	"docker.containers.label": "ContainerName",
-	"docker.images.description": [
-		"CreatedTime",
-		"RepositoryNameAndTag"
-	],
-	"docker.images.label": "RepositoryNameAndTag"
+	"yaml.format.proseWrap": "always"
 }

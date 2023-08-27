@@ -12,23 +12,18 @@ brew install node
 npm install --global npm
 
 # Apps
-
-brew install homebrew/cask-fonts/font-fira-code
-brew install homebrew/cask/brave-browser
-brew install homebrew/cask/docker
-brew install homebrew/cask/handbrake
-brew install homebrew/cask/imageoptim
-brew install homebrew/cask/insomnia
-brew install homebrew/cask/subler
-brew install homebrew/cask/visual-studio-code
-
-# App Store Apps
+brew install font-hack
+brew install brave-browser
+brew install imageoptim
+brew install subler
+brew install visual-studio-code
 mas install 497799835 # Xcode
 mas install 409203825 # Numbers
+mas install 441258766 # Magnet
 mas install 409201541 # Pages
 mas install 409183694 # Keynote
 mas install 408981434 # iMovie
-mas install 407963104 # Pixelmator
+mas install 1289583905 # Pixelmator Pro
 
 # Remove outdated versions from the cellar.
 brew cleanup
