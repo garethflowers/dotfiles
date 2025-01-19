@@ -1,7 +1,3 @@
-############
-# terminal #
-############
-
 # prompt
 PS1="
 %F{cyan}%n@%M %~%f
@@ -23,40 +19,17 @@ SAVEHIST=1000
 export EDITOR=/usr/bin/nano
 export VISUAL=/usr/bin/nano
 
-###########
-# aliases #
-###########
-
-alias afk='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+# aliases
 alias bt='npm run build && npm run test'
+alias countfiles='find . -maxdepth 1 -type d -exec sh -c "echo {}; ls -1 {} | wc -l" \; | xargs -n 2 | awk "{print $1"" ""$2}"'
 alias dig='dig +nocomments +nocmd +noquestion +nostats'
-alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}" | (read -r; printf "%s\n" "$REPLY"; sort)'
+alias dps='docker ps --all --format "table {{.Names}}\t{{.Ports}}\t{{.Status}}"'
 alias gc='git pull && git remote prune origin && git for-each-ref --format "%(refname:short)" refs/heads | grep --invert-match main | xargs git branch --delete --force'
 alias git-has-changes='test -n "$( git status --porcelain )"'
-alias git-push-mr='git push --set-upstream origin --push-option merge_request.create --push-option merge_request.target=master --push-option merge_request.merge_when_pipeline_succeeds'
 alias gp='git pull'
-alias gpm='git pull origin master'
+alias gpm='git pull origin main'
 alias ll='ls -Al'
 alias npm-upd='rm -rf node_modules; rm package-lock.json; npm i; npm audit --fix; npm ddp; npm ci'
 alias ns='npm run start'
 alias sudo='sudo '
-
-each() {
-	for dir in *; do
-		if test -d $dir; then
-			cd $dir
-			pwd
-			eval $@
-			cd -
-		fi
-	done
-}
-
-alias sys-upd='
-	sudo softwareupdate --install -all
-	brew update
-	brew upgrade
-	brew cleanup
-	npm install --global npm; npm update --global npm
-	sudo gem update --system; sudo gem update; sudo gem cleanup
-'
+each() { for dir in */; do pushd $dir; eval $@; popd; done }
