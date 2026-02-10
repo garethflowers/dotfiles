@@ -51,6 +51,7 @@
 	"task.autoDetect": "off",
 	"terminal.integrated.cursorStyle": "line",
 	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.scrollback": 10000,
 	"typescript.implementationsCodeLens.enabled": true,
 	"typescript.preferences.importModuleSpecifier": "relative",
