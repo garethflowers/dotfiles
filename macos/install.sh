@@ -2,32 +2,48 @@
 type brew &> /dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
 
-# Install command line tools
-brew install htop
-brew install nano
-brew install optipng
+# cli tools
+brew install \
+	btop \
+	ffmpeg \
+	htop \
+	nano \
+	nvm \
+	obfs4proxy \
+	optipng \
+	tor \
+	tree \
+	watch \
+	wget \
+	yt-dlp
 
-# Development
-brew install node
+# dev tools
 npm install --global npm
 
-# Apps
-brew install font-hack
-brew install brave-browser
-brew install imageoptim
-brew install subler
-brew install visual-studio-code
-mas install 497799835 # Xcode
-mas install 409203825 # Numbers
-mas install 441258766 # Magnet
-mas install 409201541 # Pages
-mas install 409183694 # Keynote
-mas install 408981434 # iMovie
-mas install 1289583905 # Pixelmator Pro
+# apps
+brew install \
+	brave-browser \
+	font-hack \
+	ghostty \
+	imageoptim \
+	subler \
+	visual-studio-code \
+	zed
 
-# Remove outdated versions from the cellar.
+mas install \
+	1289583905 \
+	1444636541 \
+	310633997 \
+	361285480 \
+	361304891 \
+	361309726 \
+	408981434 \
+	424389933 \
+	497799835
+
+# cleanup
 brew cleanup
 
-# Copy configs
+# copy configs
 rsync --archive --human-readable --no-perms --verbose ./src/ ~/
 source ~/.zshrc
